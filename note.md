@@ -75,4 +75,8 @@
 - 外部嵌套作用域 Enclosing Function Locals
 - 函数定义所在模块（文件）的作用域 Global
 - Python内置模块的作用域 Builtin
+
+# Lambda表达式（匿名函数）
+- 语法：  
+lambda[参数1, 参数2...]: 表达式
     
