@@ -1,5 +1,5 @@
 def func(**kwargs):
-    print("关键字参数个数是：",len(kwargs))
+    print("关键字参数个数是：", len(kwargs))
     print(kwargs)
 
 
