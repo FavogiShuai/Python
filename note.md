@@ -79,4 +79,17 @@
 # Lambda表达式（匿名函数）
 - 语法：  
 lambda[参数1, 参数2...]: 表达式
+
+
+# 闭包
+- 必须满足三个条件
+    - 必须有一个内嵌函数
+    - 内嵌函数必须引用外部函数的变量
+    - 外部的函数的返回值必须是内嵌函数
+```python
+def make_power(y):
+    def fx(arg):
+        return arg ** y
+    return fx
+```
     
