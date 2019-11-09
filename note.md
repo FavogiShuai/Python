@@ -92,4 +92,6 @@ def make_power(y):
         return arg ** y
     return fx
 ```
+# 装饰器 （decorators）
+
     
