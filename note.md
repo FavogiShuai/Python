@@ -93,5 +93,11 @@ def make_power(y):
     return fx
 ```
 # 装饰器 （decorators）
-
+# 模块的属性
+    - 属性的实质是模块内的全局变量；
+    - 预置属性
+        - __doc__
+        - __name__
+        - __file__
+        - __all__
     
