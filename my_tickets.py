@@ -4,7 +4,7 @@ i = 0
 total = range(1, 34)
 countList = []
 lastList = []
-while i < 10000:
+while i < 100000:
     result = random.sample(total, 6)
     countList += result
     lastList.append(random.randint(1, 16))
