@@ -1,4 +1,4 @@
-from myModule import my_module1
+from my_module import my_module1
 
 help(my_module1)
 my_module1.say_hello()
