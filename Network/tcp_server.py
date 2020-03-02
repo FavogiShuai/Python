@@ -2,7 +2,7 @@ from socket import *
 # 创建套接字
 sockfd = socket()
 # 绑定地址
-sockfd.bind(('127.0.0.1', 8889))
+sockfd.bind(('0.0.0.0', 8889))
 # 设置监听
 sockfd.listen(5)
 # 等待接收连接
