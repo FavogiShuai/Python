@@ -5,6 +5,7 @@ print(res)
 res1 = 'my name is {},my age is {}'.format('shuaishuai', '18')
 print(res1)
 
+
 name = 'shuaishuai'
 age = 18
 res2 = f'my name is {name},my age is {18}'
